@@ -1,1 +1,8 @@
 redis:7.2
+
+
+#之前镜像代理都不行，需要下面四个镜像
+canal/canal-server:v1.1.7
+coopersoft/canal-adapter:v1.1.6
+elasticsearch:7.17.14
+kibana:7.17.14
